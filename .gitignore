@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+outputs/
+*.zip
+
+
+# Virtual environments
+.venv/
+venv/
+
+# Datasets
+data/
+
+# Trained models and generated outputs
+outputs/
+
+# Temporary files
+tmp/
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.7z
