@@ -4,7 +4,9 @@ import math
 import pandas as pd
 import streamlit as st
 from PIL import Image, UnidentifiedImageError
+from src.paths import ensure_models
 
+ensure_models()
 from src.predict import load_model, predict_image
 from src.class_names import CLASS_NAMES
 from src.paths import EVALUATION_DIR
